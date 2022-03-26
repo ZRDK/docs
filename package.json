@@ -65,7 +65,7 @@
     "js-yaml": "^3.14.0",
     "linkinator": "^2.13.1",
     "liquid": "^5.1.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "lunr": "^2.3.9",
     "lunr-languages": "^1.4.0",
     "mdast-util-from-markdown": "^0.8.4",
@@ -102,7 +102,8 @@
     "uuid": "^8.3.0",
     "walk-sync": "^1.1.4",
     "webpack": "^4.44.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@actions/core": "^1.2.6",
@@ -187,7 +188,9 @@
     "link-check": "start-server-and-test link-check-server 4002 link-check-test",
     "link-check-server": "cross-env NODE_ENV=development ENABLED_LANGUAGES='en' PORT=4002 node server.js",
     "link-check-test": "cross-env node script/check-internal-links.js",
-    "heroku-postbuild": "node script/early-access/clone-for-build.js && npm run build"
+    "heroku-postbuild": "node script/early-access/clone-for-build.js && npm run build",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "12 - 14"
@@ -198,5 +201,6 @@
       "pre-commit": "node script/prevent-translation-commits.js",
       "pre-push": "npm run prevent-pushes-to-main"
     }
-  }
+  },
+  "snyk": true
 }
