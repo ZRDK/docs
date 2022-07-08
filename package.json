@@ -63,7 +63,7 @@
     "is-url": "^1.2.4",
     "js-cookie": "^2.2.1",
     "js-yaml": "^3.14.0",
-    "linkinator": "^2.13.1",
+    "linkinator": "^4.0.0",
     "liquid": "^5.1.0",
     "lodash": "^4.17.19",
     "lunr": "^2.3.9",
