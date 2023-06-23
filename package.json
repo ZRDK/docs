@@ -35,7 +35,7 @@
     "connect-datadog": "0.0.9",
     "connect-slashes": "^1.4.0",
     "cookie-parser": "^1.4.5",
-    "copy-webpack-plugin": "^6.0.3",
+    "copy-webpack-plugin": "^7.0.0",
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
     "css-loader": "^4.3.0",
@@ -63,7 +63,7 @@
     "is-url": "^1.2.4",
     "js-cookie": "^2.2.1",
     "js-yaml": "^3.14.0",
-    "linkinator": "^2.13.1",
+    "linkinator": "^4.0.0",
     "liquid": "^5.1.0",
     "lodash": "^4.17.19",
     "lunr": "^2.3.9",
@@ -101,7 +101,7 @@
     "unist-util-visit": "^2.0.3",
     "uuid": "^8.3.0",
     "walk-sync": "^1.1.4",
-    "webpack": "^4.44.0",
+    "webpack": "^5.1.1",
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
