@@ -9,7 +9,7 @@
   },
   "license": "(MIT AND CC-BY-4.0)",
   "dependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.26.10",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-syntax-class-properties": "^7.12.1",
     "@babel/plugin-transform-modules-amd": "^7.12.1",
