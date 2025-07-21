@@ -2,11 +2,11 @@ GEM
   remote: http://rubygems.org/
   specs:
     graphql (1.10.6)
-    graphql-schema_comparator (1.0.0)
+    graphql-schema_comparator (1.0.1)
       bundler (>= 1.14)
       graphql (~> 1.10)
       thor (>= 0.19, < 2.0)
-    thor (1.0.1)
+    thor (1.2.2)
 
 PLATFORMS
   ruby
@@ -14,7 +14,7 @@ PLATFORMS
 
 DEPENDENCIES
   graphql (= 1.10.6)
-  graphql-schema_comparator (~> 1.0.0)
+  graphql-schema_comparator (~> 1.0.1)
 
 BUNDLED WITH
-   2.2.1
+   1.17.3
